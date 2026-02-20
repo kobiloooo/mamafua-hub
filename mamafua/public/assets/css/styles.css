@@ -1,0 +1,11 @@
+:root {
+    --brand-green: #0f7b3d;
+    --brand-red: #c62828;
+    --brand-sand: #f3e8d4;
+}
+body { background: #fffaf2; }
+.bg-brand { background: linear-gradient(90deg, var(--brand-green), #168a48); }
+.btn-brand { background: var(--brand-green); color: #fff; }
+.btn-brand:hover { background: #0c5f30; color: #fff; }
+.hero { background: linear-gradient(135deg, rgba(15,123,61,.95), rgba(198,40,40,.8)), url('https://images.unsplash.com/photo-1523419409543-6c7e4d6f6f44?auto=format&fit=crop&w=1200&q=80') center/cover; }
+.card { border: 1px solid #f1dcb0; }
